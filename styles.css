@@ -58,7 +58,7 @@ a{
     
 }
 
-.first-div{
+.first-div {
     display: flex;
     align-items: center;
 }
@@ -122,6 +122,17 @@ main{
     text-align: justify;
     color: #A3A3A3;
     width: 100%;
+}
+
+.projects{
+    background-color: #155EEF;
+    color: #ffffff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 
 h3{
@@ -215,6 +226,7 @@ footer{
     font-weight: 700;
     font-size: 33.28px;
     letter-spacing: -0.02em;
+    color: #ffffff;
 }
 
 .socials-div{
