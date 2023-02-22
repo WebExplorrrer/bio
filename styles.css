@@ -11,6 +11,21 @@ body{
     width: 100%;
 }
 
+nav{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    color:#000000;
+    height:45px;
+}
+
+nav a{
+    font-family: 'Halant';
+    font-weight: 500;
+    font-size: 24px;
+}
+
 header{
     height: 5%;
     width: 100%;
@@ -28,20 +43,6 @@ header a{
     font-size: 33.28px;
 }
 
-nav{
-    display: flex;
-    gap: 80px;
-    align-items: center;
-    justify-content: center;
-    color:#000000;
-    height:45px;
-}
-
-nav a{
-    font-family: 'Halant';
-    font-weight: 500;
-    font-size: 24px;
-}
 
 a{
     text-decoration: none;
@@ -58,7 +59,7 @@ a{
 }
 
 .butt-link{
-    padding: 10px 22px;
+    padding: 8px 20px;
     color: #155EEF;
     border-radius: 8px;
     border-style: solid;
@@ -68,12 +69,12 @@ a{
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.5px;
-    text-align: center;    
+    align-content: center;   
 }
 
 .first-div {
     display: flex;
-    align-items: center;
+    
 }
 
 .p-one{
@@ -216,6 +217,11 @@ h3{
     font-size: 16px;
     letter-spacing: 0.5px;
     white-space: nowrap;
+}
+
+.first-ft-div {
+    display: flex;
+    align-items: center;
 }
 
 .pic-two{
