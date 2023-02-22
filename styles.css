@@ -50,7 +50,10 @@ a{
 }
 
 .active{
-    border-bottom: 1px solid#155eef;
+    text-decoration: underline solid 2px #155eef;
+    color: #000000;
+    cursor: pointer;
+    padding-bottom: 0;
 }
 
 .butt-link{
@@ -228,7 +231,7 @@ footer{
     height: 5%;
     margin-top: 0px;
     width: 100%;
-    padding: 15px 100px;
+    padding: 0px 100px;
 }
 
 .p-foot{
