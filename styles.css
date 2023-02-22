@@ -162,6 +162,7 @@ h3{
 
 .second-div{
     margin-right: 50px;
+    width: 70%
 }
 
 .second-div p{
@@ -189,7 +190,7 @@ h3{
     justify-content: space-between;
     gap: 150px;
     margin-top: 16px;
-    padding: 32px 150px;
+    padding: 32px 100px;
     height: 50%;
     width: 100%;
 }
