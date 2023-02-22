@@ -16,9 +16,17 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items:end;
+    align-items:center;;
     padding: 15px 30px;
     
+}
+
+header img{
+    height: 45px;
+}
+header a{
+    font-size: 33.28px;
+    height: 45px;
 }
 
 nav{
