@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F1F5FE;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    padding: 15px 30px;
+    
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    color:#000000;
+}
+
+nav a{
+    font-family: 'Halant';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+    cursor: pointer;
+}
+
+.active{
+    border-bottom: 1px solid#155eef;
+}
+
+.butt-link{
+    padding: 10px 22px;
+    color: #155EEF;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px 1px;
+    border-color: #155EEF;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    
+}
+
+.first-div{
+    display: flex;
+    align-items: center;
+}
+
+.p-one{
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 33.28px;
+    letter-spacing: -0.02em;
+    color: #155EEF;
+
+}
+
+main{
+    height: 60%;
+    width: 100%;
+}
+
+.section-one{
+    background-color: #000000;
+    margin-bottom: 16px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding-right:  75px;
+    padding-left: 150px;
+}
+
+.p-div{
+    width: 70%;
+}
+
+.section-one img{
+    padding-top: 40px;
+}
+
+.one{
+    font-family: 'Halant';
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color:#B8B8B8;
+}
+
+.two{
+    font-family: 'Halant';
+    font-weight: 600;
+    font-size: 56px;
+    color:#ffffff;
+    
+}
+
+.three{
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    color: #A3A3A3;
+    width: 100%;
+}
+
+h3{
+    font-family: Halant;
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+    padding-bottom: 30px;
+
+}
+
+.second-div{
+    margin-right: 50px;
+}
+
+.second-div p{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 24px;
+    text-align: justify;
+    width: 100%;
+    word-spacing: 2px;
+    letter-spacing: 1.5px;
+    color: #000000;
+}
+
+.second-div div{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.section-two{
+    background-color: #F5F8FE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+    margin-top: 16px;
+    padding: 32px 150px;
+    height: 50%;
+    width: 100%;
+}
+
+.hire{
+    background-color: #155EEF;
+    color: #ffffff;
+    padding: 10px 60px;
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.resume{
+    background-color: #ffffff;
+    color: #155EEF;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 1.5px 1.5px;
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.pic-two{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #080808;
+    color: #ffffff;
+    height: 5%;
+    margin-top: 0px;
+    width: 100%;
+    padding: 15px 100px;
+}
+
+.p-foot{
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 33.28px;
+    letter-spacing: -0.02em;
+}
+
+.socials-div{
+    display: flex;
+    gap: 35px;
+}
+
+.copy-foot{
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
