@@ -19,6 +19,10 @@ nav {
   color: #000000;
 }
 
+.menu-icon{
+  display: none;
+}
+
 nav a {
   font-family: "Halant";
   font-weight: 500;
@@ -36,6 +40,10 @@ header {
   font-size: 33.28px;
 }
 
+.media-logo{
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -44,12 +52,20 @@ a {
 }
 
 .active {
-  text-decoration: underline solid 1px #155eef;
+  /* text-decoration: underline solid 1px #155eef; */
+  border-bottom: solid 2px #155eef;
+  width: 120px;
   color: #000000;
   cursor: pointer;
   padding-bottom: 0;
+  align-items: center;
+  text-align: center;
+  flex: 1;
 }
 
+.next-active{
+  flex: 1;
+}
 .butt-link {
   padding: 8px 20px;
   color: #155eef;
@@ -59,11 +75,12 @@ a {
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.5px;
-  align-content: center;
+  flex: 1;
 }
 
 .first-div {
   display: flex;
+  align-items: center;
 }
 
 .p-one {
@@ -82,6 +99,9 @@ a {
   padding: 56px 120px 0;
 }
 
+.media-img{
+  display: none;
+}
 
 .one {
   font-family: "Halant";
@@ -203,4 +223,145 @@ footer {
   font-family: "Manrope";
   font-weight: 500;
   font-size: 24px;
+}
+
+@media screen and (max-width: 414px) {
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      padding: 0px;
+      width: 100%;
+      height: 100%
+      
+    }
+
+    nav{
+      display: none;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 8px;
+      margin: 0px;
+    } 
+
+    .menu-icon{
+      display:block;
+    }
+
+    .media-logo{
+      display: block;
+    }
+
+    .first-div{
+      display: none;
+    }
+
+    .section-one {
+      width: 100vw;
+      /* height: 40%; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0px;
+      margin: 0px 0px 20px;
+    }
+
+    .media-img{
+      display: block;
+    }
+
+    .image-one{
+      display: none;
+    }
+
+    .p-div{
+      width: 100%;
+      margin: 0px 0px 20px;
+      padding: 0px 8px;
+      align-items: center;
+    }
+
+    .projects{
+      width: 100%;
+      padding: 10px 133px;
+      margin: 16px 0px 0px 4px;
+    }
+
+    .one {
+      font-family: "Halant";
+      font-weight: 600;
+      font-size: 16px;
+      color: #b8b8b8;
+      text-align: center;
+    }
+    
+    .two {
+      font-family: "Halant";
+      font-weight: 600;
+      font-size: 32px;
+      color: #ffffff;
+      text-align: center;
+    }
+    
+    .three {
+      font-family: "Manrope";
+      font-weight: 500;
+      font-size: 16px;
+      text-align: center;
+      color: #a3a3a3;
+      margin: 0px 0px 20px;
+    }
+
+    .section-two {
+      width: 100vw;
+      /* height: 40vw; */
+      display: block;
+      padding: 0px;
+      margin: 0px;
+      
+    }
+     
+    .pic-two{
+      display: none;
+    }
+
+    h3 {
+      font-family: Halant;
+      font-size: 24px;
+      font-weight: 600;
+      color: #000000;
+      margin: 0px;
+      text-align: center;
+    }
+    
+    .second-div p {
+      font-family: "Manrope";
+      font-weight: 400;
+      font-size: 16px;
+      text-align: justify;
+      /* word-spacing: 2px; */
+      letter-spacing: 0.5px;
+      color: #000000;
+      padding: 0px 24px;
+      }
+
+    .div-five{
+      margin: 16px 40px 39px;
+    }
+
+    footer{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    }
+
+
 }
