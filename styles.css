@@ -19,7 +19,7 @@ nav {
   color: #000000;
 }
 
-.menu-icon{
+.menu-icon {
   display: none;
 }
 
@@ -29,12 +29,12 @@ nav a {
   font-size: 20px;
 }
 
- .active:hover{
+.active:hover {
   border-bottom: solid 2px #155eef;
   cursor: pointer;
 }
 
-.next-active:hover{
+.next-active:hover {
   border-bottom: solid 2px #155eef;
   cursor: pointer;
 }
@@ -50,7 +50,7 @@ header {
   font-size: 33.28px;
 }
 
-.media-logo{
+.media-logo {
   display: none;
 }
 
@@ -71,7 +71,7 @@ a {
   flex: 1;
 }
 
-.next-active{
+.next-active {
   flex: 1;
 }
 .butt-link {
@@ -98,16 +98,16 @@ a {
   color: #155eef;
 }
 
-
 .section-one {
+  width: 100%;
   background-color: #000000;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 56px 120px 0;
+  padding: 5% 10% 0;
 }
 
-.media-img{
+.media-img {
   display: none;
 }
 
@@ -162,20 +162,21 @@ h3 {
   color: #000000;
 }
 
-.div-five{
+.div-five {
   display: flex;
   gap: 30px;
   margin-top: 42px;
+  align-items: center;
 }
 
 .section-two {
+  width: 100%;
   background-color: #f5f8fe;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 157px;
+  gap: 5%;
   margin: 64px 120px;
-
 }
 
 .hire {
@@ -205,6 +206,59 @@ h3 {
   align-items: center;
 }
 
+.section-three {
+  display: flex;
+  margin: 0 5% 10%;
+}
+
+.div-four {
+  background-color: #ffffff;
+  margin: 7% 0 -5% -10%;
+  padding: 5% 2% 0;
+}
+
+.div-four h3 {
+  font-family: "Halant";
+  font-weight: 600;
+  font-size: 32px;
+  text-align: justify;
+  color: #141414;
+  letter-spacing: 0.5px;
+}
+
+.div-four p {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  color: #141414;
+}
+
+.span-div{
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.span-one {
+  font-family: "Halant";
+  font-weight: 600;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  color: #525252;
+}
+
+.span-two {
+  font-family: "Halant";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  color: #525252;
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -215,7 +269,7 @@ footer {
   padding: 16px 120px;
 }
 
-.media-foot{
+.media-foot {
   display: none;
 }
 
@@ -237,7 +291,160 @@ footer {
   font-size: 24px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 720px) {
+  body {
+    width: 100%;
+    background-color: #000000;
+  }
+
+  header {
+    background-color: #ffffff;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0 2%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .section-one {
+    width: 100%;
+    flex-direction: column;
+    padding: 0%;
+    margin-bottom: 5%;
+  }
+
+  .image-one {
+    display: none;
+  }
+
+  .media-img {
+    display: block;
+    margin-top: 2%;
+  }
+
+  .p-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+  }
+
+  .one {
+    font-size: 16px;
+    text-align: center;
+  }
+  .two {
+    font-size: 24px;
+    text-align: center;
+  }
+  .three {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .projects {
+    padding: 10px 133px;
+  }
+
+  .section-two {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .pic-two {
+    display: none;
+  }
+
+  .h3-div {
+    margin-top: 5%;
+  }
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .second-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0.5rem 1rem;
+  }
+
+  .section-three{
+    margin: 5% 0% 5%;
+  }
+
+  .img-3{
+    display: none;
+  }
+
+  .div-four{
+    padding: 5% 2% 0%;
+    margin: 0;
+  }
+
+
+  .div-four h3{
+    font-size: 24px;
+    text-align: center;
+
+  }
+
+  .div-four p{
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .media-foot {
+    display: block;
+    padding: 0;
+    margin: 0%;
+    width: 100%;
+  }
+
+  .mfd {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+
+  .mfoot-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 49.63px;
+    padding: auto 2%;
+  }
+
+  .socials-div {
+    gap: 2%;
+    margin-right: 5%;
+    padding: 0%;
+  }
+
+  .copy-foot {
+    font-size: 15.9623px;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+}
+/* @media screen and (max-width: 460px) {
     *{
       padding: 0;
       margin: 0;
@@ -276,7 +483,6 @@ footer {
 
     .section-one {
       width: 100vw;
-      /* height: 40%; */
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -336,7 +542,6 @@ footer {
 
     .section-two {
       width: 100vw;
-      /* height: 40vw; */
       display: block;
       padding: 0px;
       margin: 0px;
@@ -361,7 +566,6 @@ footer {
       font-weight: 400;
       font-size: 16px;
       text-align: justify;
-      /* word-spacing: 2px; */
       letter-spacing: 0.5px;
       color: #000000;
       padding: 0px 24px;
@@ -405,4 +609,4 @@ footer {
       text-align: center;
       padding-bottom: 3%;
     }
-}
+}  */
